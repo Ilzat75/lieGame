@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": { "model": "sulfurcraft:block/sunflower_stage3_lower" },
+    "half=upper": { "model": "sulfurcraft:block/sunflower_stage3_upper" }
+  }
+}

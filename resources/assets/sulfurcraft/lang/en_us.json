@@ -1,0 +1,22 @@
+{
+  "item.sulfurcraft.sulfur_crystal": "Sulfur Crystal",
+  "item.sulfurcraft.salt": "Salt",
+  "item.sulfurcraft.happy_pills": "Happy Pills",
+  "item.sulfurcraft.yeast": "Yeast",
+  "item.sulfurcraft.beer": "Beer",
+  "item.sulfurcraft.cheese": "Cheese",
+  "item.sulfurcraft.burger": "Burger",
+  "item.sulfurcraft.big_burger": "Big Burger",
+  "item.sulfurcraft.cola": "Cola",
+  "item.sulfurcraft.sunflower_seeds": "Sunflower Seeds",
+  "item.sulfurcraft.sunflower_oil": "Sunflower Oil",
+  "item.sulfurcraft.french_fries": "French Fries",
+  "block.sulfurcraft.fryer": "Fryer",
+  "block.sulfurcraft.oil_press": "Oil Press",
+  "block.sulfurcraft.sunflower_crop": "Sunflower Crop",
+  "sulfurcraft.container.fryer": "Fryer",
+  "sulfurcraft.container.oil_press": "Oil Press",
+  "subtitles.sulfurcraft.fryer_loop": "Fryer sizzles",
+  "subtitles.sulfurcraft.oil_press_loop": "Oil Press hums",
+  "effect.sulfurcraft.kaif": "Kaif"
+}

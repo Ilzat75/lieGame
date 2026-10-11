@@ -1,0 +1,10 @@
+{
+  "fryer_loop": {
+    "subtitle": "subtitles.sulfurcraft.fryer_loop",
+    "sounds": ["sulfurcraft:sounds/deep_fryer_loop"]
+  },
+  "oil_press_loop": {
+    "subtitle": "subtitles.sulfurcraft.oil_press_loop",
+    "sounds": ["sulfurcraft:sounds/oil_press_loop"]
+  }
+}

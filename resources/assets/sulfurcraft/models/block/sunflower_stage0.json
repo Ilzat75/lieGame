@@ -1,0 +1,314 @@
+{
+  "credit": "Generated with Claude",
+  "render_type": "minecraft:cutout",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "particle": "sulfurcraft:block/sunflower_stem",
+    "stem": "sulfurcraft:block/sunflower_stem",
+    "leaf": "sulfurcraft:block/sunflower_leaf",
+    "leaf_young": "sulfurcraft:block/sunflower_leaf_young",
+    "petals": "sulfurcraft:block/sunflower_petals",
+    "petals_young": "sulfurcraft:block/sunflower_petals_young",
+    "seed": "sulfurcraft:block/sunflower_seed",
+    "seed_young": "sulfurcraft:block/sunflower_seed_young",
+    "seed_mid": "sulfurcraft:block/sunflower_seed_mid",
+    "back": "sulfurcraft:block/sunflower_back",
+    "edge": "sulfurcraft:block/sunflower_edge"
+  },
+  "elements": [
+    {
+      "name": "stem",
+      "from": [
+        7.5,
+        0,
+        7.5
+      ],
+      "to": [
+        8.5,
+        3.5,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stem"
+        },
+        "east": {
+          "texture": "#stem"
+        },
+        "south": {
+          "texture": "#stem"
+        },
+        "west": {
+          "texture": "#stem"
+        },
+        "up": {
+          "texture": "#stem"
+        },
+        "down": {
+          "texture": "#stem"
+        }
+      }
+    },
+    {
+      "name": "bud",
+      "from": [
+        7,
+        3.5,
+        7
+      ],
+      "to": [
+        9,
+        4.75,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#seed_young"
+        },
+        "east": {
+          "texture": "#seed_young"
+        },
+        "south": {
+          "texture": "#seed_young"
+        },
+        "west": {
+          "texture": "#seed_young"
+        },
+        "up": {
+          "texture": "#seed_young"
+        },
+        "down": {
+          "texture": "#seed_young"
+        }
+      }
+    },
+    {
+      "name": "cotyledon_l",
+      "from": [
+        3.8,
+        3.6,
+        6.4
+      ],
+      "to": [
+        7.2,
+        3.6,
+        9.6
+      ],
+      "faces": {
+        "up": {
+          "texture": "#leaf_young",
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#leaf_young",
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.2,
+          3.6,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "cotyledon_r",
+      "from": [
+        8.8,
+        3.6,
+        6.4
+      ],
+      "to": [
+        12.2,
+        3.6,
+        9.6
+      ],
+      "faces": {
+        "up": {
+          "texture": "#leaf_young",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#leaf_young",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.8,
+          3.6,
+          8
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    },
+    {
+      "name": "leaf_f",
+      "from": [
+        6.6,
+        2.2,
+        8.5
+      ],
+      "to": [
+        9.4,
+        2.2,
+        11.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "#leaf_young",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 90
+        },
+        "down": {
+          "texture": "#leaf_young",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          2.2,
+          8.5
+        ],
+        "axis": "x",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "leaf_b",
+      "from": [
+        6.6,
+        2.2,
+        4.5
+      ],
+      "to": [
+        9.4,
+        2.2,
+        7.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "#leaf_young",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270
+        },
+        "down": {
+          "texture": "#leaf_young",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 90
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          2.2,
+          7.5
+        ],
+        "axis": "x",
+        "angle": 22.5
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}

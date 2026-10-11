@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "sulfurcraft:block/fryer" },
+    "facing=east": { "model": "sulfurcraft:block/fryer", "y": 90 },
+    "facing=south": { "model": "sulfurcraft:block/fryer", "y": 180 },
+    "facing=west": { "model": "sulfurcraft:block/fryer", "y": 270 }
+  }
+}

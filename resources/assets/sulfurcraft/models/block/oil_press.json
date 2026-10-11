@@ -1,0 +1,931 @@
+{
+  "credit": "Generated with Claude",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "particle": "sulfurcraft:block/oil_press_cast",
+    "steel": "sulfurcraft:block/oil_press_steel",
+    "iron": "sulfurcraft:block/oil_press_iron",
+    "cast": "sulfurcraft:block/oil_press_cast",
+    "motor": "sulfurcraft:block/oil_press_motor",
+    "hopper": "sulfurcraft:block/oil_press_hopper",
+    "seeds": "sulfurcraft:block/oil_press_seeds",
+    "oil": "sulfurcraft:block/oil_press_oil",
+    "cake": "sulfurcraft:block/oil_press_cake",
+    "copper": "sulfurcraft:block/oil_press_copper",
+    "red": "sulfurcraft:block/oil_press_red"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cast"
+        },
+        "east": {
+          "texture": "#cast"
+        },
+        "south": {
+          "texture": "#cast"
+        },
+        "west": {
+          "texture": "#cast"
+        },
+        "up": {
+          "texture": "#cast"
+        },
+        "down": {
+          "texture": "#cast"
+        }
+      }
+    },
+    {
+      "name": "motor",
+      "from": [
+        3,
+        2,
+        10
+      ],
+      "to": [
+        13,
+        9,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#motor"
+        },
+        "east": {
+          "texture": "#motor"
+        },
+        "south": {
+          "texture": "#motor"
+        },
+        "west": {
+          "texture": "#motor"
+        },
+        "up": {
+          "texture": "#motor"
+        },
+        "down": {
+          "texture": "#motor"
+        }
+      }
+    },
+    {
+      "name": "motor_cap",
+      "from": [
+        5,
+        4,
+        15
+      ],
+      "to": [
+        11,
+        7,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cast"
+        },
+        "east": {
+          "texture": "#cast"
+        },
+        "south": {
+          "texture": "#cast"
+        },
+        "west": {
+          "texture": "#cast"
+        },
+        "up": {
+          "texture": "#cast"
+        },
+        "down": {
+          "texture": "#cast"
+        }
+      }
+    },
+    {
+      "name": "switch_box",
+      "from": [
+        2,
+        4,
+        11
+      ],
+      "to": [
+        3,
+        7,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cast"
+        },
+        "east": {
+          "texture": "#cast"
+        },
+        "south": {
+          "texture": "#cast"
+        },
+        "west": {
+          "texture": "#cast"
+        },
+        "up": {
+          "texture": "#cast"
+        },
+        "down": {
+          "texture": "#cast"
+        }
+      }
+    },
+    {
+      "name": "switch_button",
+      "from": [
+        1.5,
+        5,
+        11.5
+      ],
+      "to": [
+        2,
+        6,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#red"
+        },
+        "east": {
+          "texture": "#red"
+        },
+        "south": {
+          "texture": "#red"
+        },
+        "west": {
+          "texture": "#red"
+        },
+        "up": {
+          "texture": "#red"
+        },
+        "down": {
+          "texture": "#red"
+        }
+      }
+    },
+    {
+      "name": "barrel_a",
+      "from": [
+        4,
+        4,
+        4
+      ],
+      "to": [
+        12,
+        8,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#iron"
+        },
+        "east": {
+          "texture": "#iron"
+        },
+        "south": {
+          "texture": "#iron"
+        },
+        "west": {
+          "texture": "#iron"
+        },
+        "up": {
+          "texture": "#iron"
+        },
+        "down": {
+          "texture": "#iron"
+        }
+      }
+    },
+    {
+      "name": "barrel_b",
+      "from": [
+        5,
+        3,
+        4
+      ],
+      "to": [
+        11,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#iron"
+        },
+        "east": {
+          "texture": "#iron"
+        },
+        "south": {
+          "texture": "#iron"
+        },
+        "west": {
+          "texture": "#iron"
+        },
+        "up": {
+          "texture": "#iron"
+        },
+        "down": {
+          "texture": "#iron"
+        }
+      }
+    },
+    {
+      "name": "heater_0a",
+      "from": [
+        3.75,
+        3.75,
+        5
+      ],
+      "to": [
+        12.25,
+        8.25,
+        5.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "heater_0b",
+      "from": [
+        4.75,
+        2.75,
+        5
+      ],
+      "to": [
+        11.25,
+        9.25,
+        5.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "heater_1a",
+      "from": [
+        3.75,
+        3.75,
+        8.2
+      ],
+      "to": [
+        12.25,
+        8.25,
+        9.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "heater_1b",
+      "from": [
+        4.75,
+        2.75,
+        8.2
+      ],
+      "to": [
+        11.25,
+        9.25,
+        9.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "head",
+      "from": [
+        5,
+        3.5,
+        3
+      ],
+      "to": [
+        11,
+        8.5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cast"
+        },
+        "east": {
+          "texture": "#cast"
+        },
+        "south": {
+          "texture": "#cast"
+        },
+        "west": {
+          "texture": "#cast"
+        },
+        "up": {
+          "texture": "#cast"
+        },
+        "down": {
+          "texture": "#cast"
+        }
+      }
+    },
+    {
+      "name": "nozzle",
+      "from": [
+        6.5,
+        4.5,
+        2
+      ],
+      "to": [
+        9.5,
+        7.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cast"
+        },
+        "east": {
+          "texture": "#cast"
+        },
+        "south": {
+          "texture": "#cast"
+        },
+        "west": {
+          "texture": "#cast"
+        },
+        "up": {
+          "texture": "#cast"
+        },
+        "down": {
+          "texture": "#cast"
+        }
+      }
+    },
+    {
+      "name": "cake_extrusion",
+      "from": [
+        7,
+        3.6,
+        1
+      ],
+      "to": [
+        9,
+        4.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cake"
+        },
+        "east": {
+          "texture": "#cake"
+        },
+        "south": {
+          "texture": "#cake"
+        },
+        "west": {
+          "texture": "#cake"
+        },
+        "up": {
+          "texture": "#cake"
+        },
+        "down": {
+          "texture": "#cake"
+        }
+      }
+    },
+    {
+      "name": "tray_floor",
+      "from": [
+        3,
+        2,
+        1
+      ],
+      "to": [
+        13,
+        2.5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#steel"
+        },
+        "east": {
+          "texture": "#steel"
+        },
+        "south": {
+          "texture": "#steel"
+        },
+        "west": {
+          "texture": "#steel"
+        },
+        "up": {
+          "texture": "#steel"
+        },
+        "down": {
+          "texture": "#steel"
+        }
+      }
+    },
+    {
+      "name": "tray_front",
+      "from": [
+        3,
+        2.5,
+        1
+      ],
+      "to": [
+        13,
+        3.5,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#steel"
+        },
+        "east": {
+          "texture": "#steel"
+        },
+        "south": {
+          "texture": "#steel"
+        },
+        "west": {
+          "texture": "#steel"
+        },
+        "up": {
+          "texture": "#steel"
+        },
+        "down": {
+          "texture": "#steel"
+        }
+      }
+    },
+    {
+      "name": "tray_left",
+      "from": [
+        3,
+        2.5,
+        1.5
+      ],
+      "to": [
+        3.5,
+        3.5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#steel"
+        },
+        "east": {
+          "texture": "#steel"
+        },
+        "south": {
+          "texture": "#steel"
+        },
+        "west": {
+          "texture": "#steel"
+        },
+        "up": {
+          "texture": "#steel"
+        },
+        "down": {
+          "texture": "#steel"
+        }
+      }
+    },
+    {
+      "name": "tray_right",
+      "from": [
+        12.5,
+        2.5,
+        1.5
+      ],
+      "to": [
+        13,
+        3.5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#steel"
+        },
+        "east": {
+          "texture": "#steel"
+        },
+        "south": {
+          "texture": "#steel"
+        },
+        "west": {
+          "texture": "#steel"
+        },
+        "up": {
+          "texture": "#steel"
+        },
+        "down": {
+          "texture": "#steel"
+        }
+      }
+    },
+    {
+      "name": "oil",
+      "from": [
+        3.5,
+        2.5,
+        1.5
+      ],
+      "to": [
+        12.5,
+        3,
+        8
+      ],
+      "faces": {
+        "up": {
+          "texture": "#oil"
+        },
+        "north": {
+          "texture": "#oil"
+        },
+        "south": {
+          "texture": "#oil"
+        },
+        "east": {
+          "texture": "#oil"
+        },
+        "west": {
+          "texture": "#oil"
+        }
+      }
+    },
+    {
+      "name": "cake_lump_1",
+      "from": [
+        5,
+        2.5,
+        2
+      ],
+      "to": [
+        6.8,
+        3.5,
+        3.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cake"
+        },
+        "east": {
+          "texture": "#cake"
+        },
+        "south": {
+          "texture": "#cake"
+        },
+        "west": {
+          "texture": "#cake"
+        },
+        "up": {
+          "texture": "#cake"
+        },
+        "down": {
+          "texture": "#cake"
+        }
+      }
+    },
+    {
+      "name": "cake_lump_2",
+      "from": [
+        9.5,
+        2.5,
+        2.5
+      ],
+      "to": [
+        11,
+        3.3,
+        4.2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cake"
+        },
+        "east": {
+          "texture": "#cake"
+        },
+        "south": {
+          "texture": "#cake"
+        },
+        "west": {
+          "texture": "#cake"
+        },
+        "up": {
+          "texture": "#cake"
+        },
+        "down": {
+          "texture": "#cake"
+        }
+      }
+    },
+    {
+      "name": "hopper_neck",
+      "from": [
+        6.5,
+        9,
+        5.5
+      ],
+      "to": [
+        9.5,
+        10,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hopper"
+        },
+        "east": {
+          "texture": "#hopper"
+        },
+        "south": {
+          "texture": "#hopper"
+        },
+        "west": {
+          "texture": "#hopper"
+        },
+        "up": {
+          "texture": "#hopper"
+        },
+        "down": {
+          "texture": "#hopper"
+        }
+      }
+    },
+    {
+      "name": "hopper_2",
+      "from": [
+        5.5,
+        10,
+        4.5
+      ],
+      "to": [
+        10.5,
+        11.5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hopper"
+        },
+        "east": {
+          "texture": "#hopper"
+        },
+        "south": {
+          "texture": "#hopper"
+        },
+        "west": {
+          "texture": "#hopper"
+        },
+        "up": {
+          "texture": "#hopper"
+        },
+        "down": {
+          "texture": "#hopper"
+        }
+      }
+    },
+    {
+      "name": "hopper_3",
+      "from": [
+        4.5,
+        11.5,
+        3.5
+      ],
+      "to": [
+        11.5,
+        13,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hopper"
+        },
+        "east": {
+          "texture": "#hopper"
+        },
+        "south": {
+          "texture": "#hopper"
+        },
+        "west": {
+          "texture": "#hopper"
+        },
+        "up": {
+          "texture": "#hopper"
+        },
+        "down": {
+          "texture": "#hopper"
+        }
+      }
+    },
+    {
+      "name": "hopper_top",
+      "from": [
+        4,
+        13,
+        3
+      ],
+      "to": [
+        12,
+        15,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hopper"
+        },
+        "east": {
+          "texture": "#hopper"
+        },
+        "south": {
+          "texture": "#hopper"
+        },
+        "west": {
+          "texture": "#hopper"
+        },
+        "up": {
+          "texture": "#seeds"
+        },
+        "down": {
+          "texture": "#hopper"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

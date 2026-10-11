@@ -1,0 +1,22 @@
+{
+  "item.sulfurcraft.sulfur_crystal": "Серный кристалл",
+  "item.sulfurcraft.salt": "Соль",
+  "item.sulfurcraft.happy_pills": "Весёлые таблетки",
+  "item.sulfurcraft.yeast": "Дрожжи",
+  "item.sulfurcraft.beer": "Пиво",
+  "item.sulfurcraft.cheese": "Сыр",
+  "item.sulfurcraft.burger": "Бургер",
+  "item.sulfurcraft.big_burger": "Большой бургер",
+  "item.sulfurcraft.cola": "Кола",
+  "item.sulfurcraft.sunflower_seeds": "Семена подсолнуха",
+  "item.sulfurcraft.sunflower_oil": "Подсолнечное масло",
+  "item.sulfurcraft.french_fries": "Картофель фри",
+  "block.sulfurcraft.fryer": "Фритюр",
+  "block.sulfurcraft.oil_press": "Маслопресс",
+  "block.sulfurcraft.sunflower_crop": "Подсолнух",
+  "sulfurcraft.container.fryer": "Фритюр",
+  "sulfurcraft.container.oil_press": "Маслопресс",
+  "subtitles.sulfurcraft.fryer_loop": "Фритюр шипит",
+  "subtitles.sulfurcraft.oil_press_loop": "Маслопресс гудит",
+  "effect.sulfurcraft.kaif": "Кайф"
+}
